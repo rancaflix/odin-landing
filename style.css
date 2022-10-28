@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body, body * {
+    font-family: 'Roboto' !important ;
+}
+
+body {
+    background-color: #1F2937;
+    margin: 0px;
+}
+
+.middle, .action {
+    background-color: white;
+}
+
+.header, .start, .footer {
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-weight: 900;
+}
+
+.start {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.left {
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 200px;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.left > h2 {
+    font-size: 48px;
+    font-weight: 900px;
+}
+
+.left > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left > button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    width: 130px;
+}
+
+.right {
+    display: inline-flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    background-color: rgba(169, 169, 169, 0.336);
+    color: white;
+    margin: 100px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.middle > h2 {
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+    width: 100%;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.grid {
+   display: flex;
+   gap: 100px;
+   margin: 0 0 50px 0;
+}
+
+.card {
+    display: inline;
+    text-align: center;
+    max-width: 230px;
+    align-items: center;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    border-color: #3882F6;
+    margin: 10px 5px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 100px 400px;
+}
+
+.quote p:first-child {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    display: block;
+}
+
+.signed {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: right;
+    color: #1F2937;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 100px;
+    padding: 50px 200px;
+    border-style: solid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call p:first-child {
+    font-weight: bold;
+    font-size: larger;
+    display: block;
+    align-self: flex-end;
+    margin: 0px 0px;
+}
+
+.call p:nth-child(2) {
+    margin: 0px 0px;
+    align-self: flex-start;
+    color: #E5E7EB;
+}
+
+
+.call-button > button {
+    margin: 0px 60px;
+    padding: 5px 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    flex-grow: 0;
+    align-self: flex-end;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
